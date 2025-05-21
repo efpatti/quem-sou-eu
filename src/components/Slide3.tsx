@@ -2,18 +2,15 @@
 import SubItem from "@/components/SubItem";
 
 const slide3 = [
-  <SubItem key="name">
-    <h1 className="text-5xl font-bold">Enzo Ferracini Patti</h1>
-  </SubItem>,
-  <SubItem key="age">
-    <p className="text-2xl mt-4">17 anos</p>
-  </SubItem>,
-  <SubItem key="tech">
-    <p className="text-2xl mt-4">Técnico em Desenvolvimento de Sistemas – SENAI</p>
-  </SubItem>,
-  <SubItem key="college">
-    <p className="text-2xl mt-4">Ciência da Computação – USCS (previsão 2028)</p>
-  </SubItem>,
+ <SubItem key="item1">
+  <p className="text-2xl mt-4">item1</p>
+ </SubItem>,
+ <SubItem key="item2">
+  <p className="text-2xl mt-4">item2</p>
+ </SubItem>,
+ <SubItem key="item3">
+  <p className="text-2xl mt-4">item3</p>
+ </SubItem>,
 ];
 
 export default slide3;
